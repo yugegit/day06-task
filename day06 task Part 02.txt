@@ -1,0 +1,105 @@
+PART 02
+
+var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+var new_string = ' ' ;
+ 
+for (var i = 0; i < 11; i++) {
+ new_string += numsArr[i] 
+}
+console.log(new_string)
+
+
+var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+var new_string = ' ' ;
+ 
+for (var i = 0; i < 11; i++) {
+ new_string += numsArr[i] + ' , ' ;
+}
+console.log(new_string);
+
+
+var numsArr = [1,2,3,4,5,6,7,8,9,10,11];
+var new_string = "";
+ 
+for (var i = 11;i >= 0;i--) {
+ new_string += numsArr[i] + " ";
+}
+console.log(new_string.trim());
+
+var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+for (var i = 0;i <=10;i++) {
+ if(numsArr[i]%2 ===0)
+ {
+ numsArr[i] = "even";
+ }
+}
+console.log(numsArr);
+
+var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+for (var i = 0;i <=10;i++) {
+ if(numsArr[i]%2!==0 )
+ {
+ numsArr[i] = "even"
+ }
+}
+console.log(numsArr);
+
+var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+let sum =0;
+for (var i = 0;i<numsArr.length;i++) {
+ 
+ sum += numsArr[i]
+}
+console.log(sum);
+
+
+var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+const sumevens = (numsArr) => {
+   var sum=0;
+
+for (var i = 0; i<numsArr.length; i++) {
+ if(numsArr[i]%2===0){
+ sum += numsArr[i];
+  }
+ }
+
+return sum;
+}
+console.log(sumevens(numsArr));
+
+
+var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+
+var sum=130;
+for (var i = 0;i <=10;i++) {
+ if(numsArr[i]%2==0)
+ {
+ sum += numsArr[i]
+ }
+ else (numsArr[i]%2!==0)
+ {
+ sum -= numsArr[i]
+ }
+}
+console.log(sum);
+
+var numsArr = [1, 2, 3, 4, 5]
+var numsArr1[ 6, 7, 8, 9, 10, 11];
+console.log(numsArr)
+console.log(numsArr1)
+
+var numsArr = [[1, 2, 3, 4, 5],[ 6, 7, 8, 9, 10, 11]];
+var str_all="";
+for (var i = 0; i < numsArr.length; i++) {
+ var inner_array = numsArr[i];
+ for(var j = 0 ; j < inner_array.length;j++ )
+     str_all +=inner_array[j]
+}
+console.log(str_all);
+
+
+
+
+
+
+
